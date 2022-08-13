@@ -1,0 +1,84 @@
+html {
+  font-family: Inter, Roboto, sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", Inter, Roboto, sans-serif;
+  }
+}
+body {
+  margin: 1em;
+  color: #111;
+  background-color: #fefefe;
+  overflow-y: scroll;
+}
+body::before {
+  content: "";
+  display: block;
+  height: 75px;
+  width: calc(100% + 2em);
+  margin: -1em 0 0 -1em;
+  background-color: #c471ed;
+  /* Via uigradients.com/#JShine */
+  background-image: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  background-image: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+}
+header, main, footer {
+  max-width: 800px;
+  margin: auto;
+}
+footer {
+  padding-bottom: 1em;
+}
+h1, h2, h3 {
+  margin: 1.5em 0 .5em;
+}
+p {
+  margin: .75em 0;
+  text-indent: 1em;
+}
+a[href] {
+  color: #2767d9;
+  text-decoration: none;
+}
+a[href]:hover, a[href]:focus {
+  text-decoration: underline;
+}
+em, b, strong {
+  font-weight: 600;
+}
+a[href^="#"] {
+  vertical-align: super;
+  font-size: 80%;
+}
+footer {
+  text-align: right;
+  color: #aaa;
+  font-size: 85%;
+}
+footer .email {
+  fill: none;
+  stroke: #aaa;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  height: 1.5em;
+  padding: .15em 0;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+a[href].back {
+  display: block;
+  width: 4em;
+  text-align: center;
+  padding: .1em .2em;
+  margin-top: -.75em;
+  border-radius: 3px;
+  text-decoration: none;
+  background-color: #fefefe;
+}
+a[href].back:hover,
+a[href].back:focus {
+  background-color: #2767d9;
+  color: #fefefe;
+}
