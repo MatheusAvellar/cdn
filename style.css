@@ -37,19 +37,22 @@ p {
   margin: .75em 0;
   text-indent: 1em;
 }
-a[href] {
-  color: #2767d9;
-  text-decoration: none;
-}
-a[href]:hover, a[href]:focus {
-  text-decoration: underline;
+hr {
+  overflow: visible;
+  height: 1px;
+  background-color: #e8e8e8;
+  border: none;
+  outline: none;
+  margin: 3em;
 }
 em, b, strong {
   font-weight: 600;
 }
-a[href^="#"] {
-  vertical-align: super;
-  font-size: 80%;
+code {
+  font-size: 1.25em;
+  background-color: #dde0ea;
+  padding: .0125rem .25rem;
+  border-radius: 4px;
 }
 footer {
   text-align: right;
@@ -66,6 +69,17 @@ footer .email {
   padding: .15em 0;
   vertical-align: middle;
   box-sizing: border-box;
+}
+a[href] {
+  color: #2767d9;
+  text-decoration: none;
+}
+a[href]:hover, a[href]:focus {
+  text-decoration: underline;
+}
+a[href^="#"] {
+  vertical-align: super;
+  font-size: 80%;
 }
 a[href].back {
   display: block;

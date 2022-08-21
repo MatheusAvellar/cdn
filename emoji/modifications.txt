@@ -1,4 +1,0 @@
-Fluent:
-  Changed viewBox from "0 0 32 32" to "2 2 28 28"
-  Removed height/width attributes from root
-  Removed fill="none" from root
