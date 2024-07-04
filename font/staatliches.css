@@ -1,0 +1,14 @@
+/* Font downloaded on 2024-07-01 (at v1.0)
+	 from typebrut.com/work/staatliches */
+/* Usage example:
+	:root { font-family: Staatliches, sans-serif; }
+*/
+
+@font-face {
+	font-family: Staatliches;
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url("staatliches/Staatliches-Regular.woff2") format("woff2"),
+			url("staatliches/Staatliches-Regular.woff") format("woff");
+}
